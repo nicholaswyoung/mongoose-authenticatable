@@ -1,6 +1,6 @@
 {
 	"name": "mongoose-authenticatable",
-	"description": "Build powerful, versioned APIs with Connect",
+	"description": "Simple authentication methods for your Mongoose models.",
 	"author": {
 		"name": "Nicholas Young",
 		"email": "dev@originalmachine.com",

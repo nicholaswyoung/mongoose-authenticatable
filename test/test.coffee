@@ -1,6 +1,6 @@
 path 			 = require('path')
 mongoose 	 = require('mongoose')
-authenticate = require path.join(__dirname, '../src/index')
+authenticate = require path.join(__dirname, '../lib/index')
 expect 		 = require('chai').expect
 
 # Setup Test Model
