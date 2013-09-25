@@ -16,8 +16,7 @@
 	"devDependencies": {
 		"dox": "latest",
 		"mocha": "latest",
-		"chai": "latest",
-		"coffee-script": "latest"
+		"chai": "latest"
 	},
 	"scripts": {
 		"test": "make test"
