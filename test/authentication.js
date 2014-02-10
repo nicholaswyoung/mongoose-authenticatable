@@ -20,7 +20,7 @@ describe('Authentication', function () {
 	
 	describe('#authenticate', function () {
 		before(function (done) {
-			this.account = new this.Model({ email: 'test@example.org', password: '123456' });
+			this.account = new this.Model({ email: 'test@example.org', password: '123456', password_confirmation: '123456' });
 			this.account.save(done);
 		});
 		

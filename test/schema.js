@@ -25,6 +25,10 @@ describe('Model Schema', function () {
 	it('should store password', function () {
 		expect(this.Model.schema).to.have.deep.property('paths.password')
 	});
+
+	it('should store a virtual password_confirmation', function () {
+		expect(this.Model.schema).to.have.deep.property('virtuals.password_confirmation');
+	});
 	
 	describe('Defaults', function () {
 		it('should require email', function () {
