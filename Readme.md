@@ -1,5 +1,7 @@
 # Mongoose Authenticate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nicholaswyoung/mongoose-authenticatable.svg)](https://greenkeeper.io/)
+
 Simple authentication methods for your Mongoose models.
 
 ## Usage
